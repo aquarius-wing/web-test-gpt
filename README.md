@@ -1,5 +1,5 @@
 <p align="center">
-  <span style="font-size: 64px;font-weight: bold">web-test-gpt</span>
+  <h1 style="text-align: center;">web-test-gpt</h1>
 </p>
 
 # Our goal
