@@ -1,6 +1,6 @@
-<p align="center">
-  <h1 style="text-align: center;">web-test-gpt</h1>
-</p>
+<h1 align="center">
+  web-test-gpt
+</h1>
 
 # Our goal
 Automatically generate tests for your website by using LLM models
