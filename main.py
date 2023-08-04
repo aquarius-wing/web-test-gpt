@@ -47,7 +47,8 @@ def main_openai():
 def main_claude():
     # 本来想加上6. 最后请严格遵守我的输入格式，我期望的输出格式是只需要告诉我文件代码即可，不需要返回其它任何字符
     # 但是反而效果变差了
-    response = ask_claude("""你是一个写playwright的专家，下面是一个html，在html.txt中，请你阅读这个html，请你根据这个html，对“点击清除按钮,验证能清空当前输入”这个测试用例，编写一个playwright的测试代码。注意
+    response = ask_claude("""你是一个写playwright的专家，下面是一个html，在html.txt中，请你阅读这个html，请你根据这个html，对“点击清除按钮,验证能清空当前输入”这个测试用例，编写一个playwright的测试代码。
+    注意
 1. nth的序号是用0开始的
 2. 如果要测试输入，请仔细阅读html，然后在编写locator的时候尽可能详细地找到可以输入的dom对象
 3. 如果要测试输入，请用type而不是fill
