@@ -1,0 +1,6 @@
+graph TD
+    User --> | Download html | WebsiteDownloadAgent
+    WebsiteDownloadAgent --> |Detect some actionable dom | WebsiteTestDetectAgent
+    WebsiteTestDetectAgent --> | Action | WebsiteActionAgent
+    WebsiteActionAgent --> | Download html after action | WebsiteDownloadAgent
+    WebsiteActionAgent --> | Generate test code based on html difference |WriteTestAgent
