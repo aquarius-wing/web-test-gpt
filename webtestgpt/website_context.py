@@ -31,8 +31,9 @@ class WebsiteAction:
     name: str
     css_selector: str
     description: str
+    test_code: str
 
-    def __init__(self, name: str, css_selector: str, description: str):
+    def __init__(self, name: str, css_selector: str, description: str, test_code: str = ''):
         super().__init__()
         self.name = name
         self.css_selector = css_selector
